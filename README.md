@@ -14,5 +14,8 @@
 * File -> Import Project
 * Run -> Run 'app'
 
+# Project Origin
+This Android project is a clone from http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.java.git/ and just contains the changes to build it with gradle
+
 
 
