@@ -18,13 +18,13 @@ android {
 
 repositories {
     maven {
-        url "https://repo.eclipse.org/content/repositories/paho-snapshots/"
+        url "https://repo.eclipse.org/content/repositories/paho-releases/"
     }
 }
 
 dependencies {
     compile 'com.android.support:support-v4:21.0.3'
-    compile (group: 'org.eclipse.paho', name: 'org.eclipse.paho.android.service', version: '1.0.1-SNAPSHOT') {
+    compile (group: 'org.eclipse.paho', name: 'org.eclipse.paho.android.service', version: '1.0.2') {
         exclude module: 'support-v4'
     }
 }
