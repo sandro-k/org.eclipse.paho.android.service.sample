@@ -23,8 +23,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:21.0.3'
-    compile (group: 'org.eclipse.paho', name: 'org.eclipse.paho.android.service', version: '1.0.2') {
-        exclude module: 'support-v4'
-    }
+    compile project(':PahoAndroidService')
+    compile 'com.android.support:support-v4:22.2.0'
 }
